@@ -151,7 +151,6 @@
       { "group": "bedroom", "count": [ 1, 3 ], "prob": 5 },
       { "group": "office_mess", "count": [ 1, 6 ], "prob": 25 },
       { "group": "office_supplies", "count": [ 2, 6 ], "prob": 50 },
-      { "group": "npc_hacker", "prob": 10 },
       { "group": "school", "count": [ 1, 4 ], "prob": 20 }
     ]
   },

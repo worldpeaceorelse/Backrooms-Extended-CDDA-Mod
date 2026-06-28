@@ -44,7 +44,6 @@
       { "item": "scrap", "count": [ 4, 8 ] },
       { "item": "glass_shard", "count": [ 8, 16 ] },
       { "item": "plastic_chunk", "count": [ 4, 8 ] },
-      { "item": "cable", "charges": [ 10, 20 ] },
       { "item": "circuit", "count": [ 2, 4 ] },
       { "item": "power_supply", "count": [ 1, 2 ] },
       { "item": "e_scrap", "count": [ 6, 12 ] }
@@ -59,7 +58,6 @@
       { "item": "scrap", "count": [ 2, 6 ] },
       { "item": "glass_shard", "count": [ 8, 20 ] },
       { "item": "plastic_chunk", "count": [ 2, 6 ] },
-      { "item": "cable", "charges": [ 5, 12 ] },
       { "item": "e_scrap", "count": [ 4, 8 ] }
     ]
   }

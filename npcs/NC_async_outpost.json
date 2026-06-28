@@ -45,7 +45,7 @@
   "gender": "male",
   "class": "NC_ASYNC_GUARD",
   "attitude": 0,
-  "mission": 7,
+  "mission": "GUARD",
   "chat": "TALK_ASYNC_GUARD",
   "faction": "async"
 },
@@ -94,7 +94,7 @@
     "gender": "female",
     "class": "NC_ASYNC_SCIENTIST",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_ASYNC_SCIENTIST",
     "faction": "async"
   },
@@ -144,7 +144,7 @@
     "gender": "male",
     "class": "NC_ASYNC_ENGINEER",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_ASYNC_ENGINEER",
     "faction": "async"
   },

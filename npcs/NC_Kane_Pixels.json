@@ -43,7 +43,7 @@
     "gender": "male",
     "class": "NC_KANE_PIXEL",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_KANE_PIXEL",
     "faction": "no_faction"
   },
@@ -134,7 +134,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_KANE_PIXEL_FILMS",
-    "dynamic_line": "I made... well, I made videos about places that shouldn't exist. Hallways that go nowhere. Rooms that don't make sense. I thought I was just being artistic. But maybe I was remembering. Maybe we all have some connection to this place. Some people dream about it. Some people make videos about it. I'm just the one who ended up here.",
+    "dynamic_line": "I made... well, I made videos about places that shouldn't exist. Videos about hallways that go nowhere. Rooms that don't make sense. I thought I was just being artistic. But maybe I was remembering. Maybe we all have some connection to this place. Some people dream about it. Some people make videos about it. I'm just the one who ended up here.",
     "responses": [
       {
         "text": "Do you remember making the videos?",

@@ -36,7 +36,7 @@
   "name_suffix": "the Hollow",
   "class": "NC_DR_CHEN",
   "attitude": 0,
-  "mission": 7,
+  "mission": "GUARD",
   "chat": "TALK_DR_CHEN_INSANE",
   "faction": "async",
   "age": 43,
