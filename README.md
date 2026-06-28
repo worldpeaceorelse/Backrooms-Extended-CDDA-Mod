@@ -18,6 +18,5 @@ Complete missions for Async and various other characters.
 ## Kane Pixels:
 He's only 20 years old. I hid him in a special room in-game. That's right, you can find and chat with the creator of the Backrooms himself. 
 
-## Thanks for playing. 
-
-‒ momosthrall ♡
+## Thanks for playing!
+## ‒ momosthrall ♡
