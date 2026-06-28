@@ -166,7 +166,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_ASYNC_GUARD_HELP",
-    "dynamic_line": "Chen, like the rest of us here, were hired to map this place out. Sadly our threshold was compromised in a catastrophic failure that I don't have the time or mental energy to talk about right now... you showed up at a terrible time. Dr. Chen went to the routing room, this room with nothing but rows of data racks and open space, to grab the sensor data. Hours ago. You can't hide in that room. It's just cables and blinking lights and nowhere to go. I have a strong feeling that you're not going find a living human but- if you can get to the server room and secure that research data, we might be able to figure out what went wrong.",
+    "dynamic_line": "Chen, like the rest of us here, was hired to map this place out. Sadly our threshold was compromised in a catastrophic failure that I don't have the time or mental energy to talk about right now... you showed up at a terrible time. Dr. Chen went to the routing room, this room with nothing but rows of data racks and open space, to grab the sensor data. Hours ago. You can't hide in that room. It's just cables and blinking lights and nowhere to go. I have a strong feeling that you're not going find a living human but- if you can get to the server room and secure that research data, we might be able to figure out what went wrong.",
     "responses": [
       {
         "text": "I'll go check on him and try to secure that data.",
