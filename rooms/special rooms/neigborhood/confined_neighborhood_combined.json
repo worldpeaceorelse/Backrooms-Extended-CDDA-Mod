@@ -1,0 +1,230 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [
+      [
+        "backfloorchamber_tunnel_nw",
+        "backfloorchamber_tunnel_n",
+        "backfloorchamber_tunnel_n1",
+        "backfloorchamber_tunnel_ne"
+      ],
+      [
+        "backfloorchamber_neigh_nw",
+        "backfloorchamber_neigh_n",
+        "backfloorchamber_neigh_n1",
+        "backfloorchamber_neigh_ne"
+      ],
+      [
+        "backfloorchamber_neigh_w",
+        "backfloorchamber_neigh_c",
+        "backfloorchamber_neigh_c1",
+        "backfloorchamber_neigh_e"
+      ],
+      [
+        "backfloorchamber_neigh_w1",
+        "backfloorchamber_neigh_c2",
+        "backfloorchamber_neigh_c3",
+        "backfloorchamber_neigh_e1"
+      ],
+      [
+        "backfloorchamber_neigh_sw",
+        "backfloorchamber_neigh_s",
+        "backfloorchamber_neigh_s1",
+        "backfloorchamber_neigh_se"
+      ],
+      [
+        "backfloorchamber_tunnel_sw",
+        "backfloorchamber_tunnel_s",
+        "backfloorchamber_tunnel_s1",
+        "backfloorchamber_tunnel_se"
+      ]
+    ],
+    "object": {
+      "fill_ter": "t_carpet_backrooms",
+      "palettes": [
+        "backrooms_palette_confined_neighborhood"
+      ],
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwwwwwssssssssssyssssssssswwwwssssssssssyssssssssswwwwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwww--wssssssssssyssssssssswwwwssssssssssysssssssssw--wwwwwwwwwwwwwwwwwwwwwww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssyssssssssswwwwssssssssssysssssssssw--w....................ww",
+        "wwwwwwwwwwwwwwwwwwwwwwwwwwssssssssssyssssssssswwwwssssssssssyssssssssswwwwwwwwwwwwwwwwwwwwwwwwww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss-------------wwwwwwwwwwwww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssyssssssssssssssssssssssG..........ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssyssssssssssssssssssssssG............",
+        "wwwwwwOwwwwwwwOwwwOwwww---ssssssssssysssssssss----ssssssssssyssssssssssssssssssssssG............",
+        "www...b.B..w..tJJJ...lw---ssssssssssysssssssss----ssssssssssysssssssss---wwwwwDwwwww..........ww",
+        "wwO...b....D..........w---ssssssssssysssssssss----ssssssssssysssssssss---w.........w..........ww",
+        "www........w......wwDww---ssssssssssysssssssss----ssssssssssysssssssss---w.........wwwwwwDwwwwww",
+        "www.....V..w.BBBB.w-s-----ssssssssssysssssssss----ssssssssssysssssssss---O.........w..........ww",
+        "wwwwwwDwwwwwwwwwwww-s-----ssssssssssysssssssss----ssssssssssysssssssss---w....................ww",
+        "ww..         wssssssssssssssssssssssysssssssss----ssssssssssysssssssss---w.....wwwww..........D.",
+        ".... c       wssssssssssssssssssssssysssssssss----ssssssssssysssssssss---O.....w3..D.......bb.ww",
+        "ww..         wssssssssssssssssssssssysssssssss----ssssssssssysssssssss---w.....w421w.BB..t.bb.ww",
+        "ww..    c    wssssssssssssssssssssssysssssssss----ssssssssssysssssssss---wwwOwwwOwwwwwwwwOwwwwww",
+        "wwwwwwDwwwwwww------------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww..     ..w--------------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww..     ..wwwwwwDwwwww---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "wO..  c  ..wc c       w---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "....     ...          w---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "....     ..w          O---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "wO..     ..w      c   w---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww..     ..w          w---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "wwwwwwOwwwwwwwwwwOwwwww---ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww-----------fh---------M-ssssssssssysssssssss----ssssssssssysssssssss-M----------------------ww",
+        "ww-----------fh-----------ssssssssssysssssssss----ssssssssssysssssssss------------------------ww",
+        "ww--------wwwwwwwwwwwwwwh-ssssssssssysssssssss----ssssssssssysssssssss-wwwwOwwwwwwwOwwwOwwww--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssss-w--------w----t----lw--ww",
+        "ww--------D............wh-ssssssssssysssssssss----ssssssssssysssssssss-OJ-------D----------w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssss-wJ-------w------wwDww--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssss-w-----BB-w-b--b-w2-3w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssss-wwwwDwwwww-b--b-w1-4w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssss----------wwwwwwwwwDww--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssssssssssssssG..........w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssssssssssssssG..........w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssysssssssssssssssssssG..........w--ww",
+        "ww--------w............wh-ssssssssssysssssssss----ssssssssssyssssssssswwwwwDwwwww..........w--ww",
+        "ww--------wwwwwwwwwwwwwwh-ssssssssssysssssssss----ssssssssssysssssssssw.........w..........w--ww",
+        "ww---------f--------------ssssssssssysssssssss----ssssssssssyssssssssswJJJ.....BwwwwwwDwwwww--ww",
+        "ww--wwwwwwwww-----------M-ssssssssssysssssssss----ssssssssssysssssssssOJ........w..........w--ww",
+        "ww--w       Gsssssssssssssssssssssssysssssssss----ssssssssssyssssssssswJ.V............ccc..w--ww",
+        "ww--w       Gsssssssssssssssssssssssysssssssss----ssssssssssyssssssssswJ........wk...ctttc.O--ww",
+        "ww--w       Gsssssssssssssssssssssssysssssssss----ssssssssssysssssssssOJJJ.....Bwk....ccc..w--ww",
+        "ww--w       w-------------ssssssssssysssssssss----ssssssssssysssssssssw.........wkrok.....lw--ww",
+        "ww--wwwwDwwwwwwwwDwwwwwww-ssssssssssysssssssss----ssssssssssyssssssssswwwwwwwwwwwwwwwwwOwwww--ww",
+        "ww--w.... ....w   w     w-ssssssssssysssssssss----ssssssssssysssssssss-------------------f----ww",
+        "ww--w....w....w   w     w-ssssssssssysssssssss----ssssssssssysssssssss-M-----------------f----ww",
+        "wwwww....w....w   w     w-ssssssssssysssssssss----ssssssssssysssssssss----------wwwwwwwwwww---ww",
+        ".........w....w   w     w-ssssssssssysssssssss----ssssssssssysssssssss----------w         w---ww",
+        ".........w....D   w     w-ssssssssssysssssssss----ssssssssssysssssssss----------D         w---ww",
+        "......... ....w   w     D-ssssssssssysssssssss----ssssssssssysssssssss----------w         w---ww",
+        "wwwww wwwwwww w   w     w-ssssssssssysssssssss----ssssssssssysssssssss----------wwwwwwwwwww---ww",
+        "ww--w   w     w   c     w-ssssssssssysssssssss----ssssssssssysssssssss-----------------f------ww",
+        "ww--w   w     w         w-ssssssssssysssssssss----ssssssssssysssssssss-----------------f------ww",
+        "ww--w   w ww  w..wwwww  w-ssssssssssysssssssss----ssssssssssysssssssss-----------------f------ww",
+        "ww-hw   w     w.........D-ssssssssssysssssssss----ssssssssssysssssssss-----wwwwwwwwwwwwwwwwwwwww",
+        "ww-hw         D.........w-ssssssssssysssssssss----ssssssssssysssssssss-----w                    ",
+        "ww-hw         w.........w-ssssssssssysssssssss----ssssssssssysssssssss-----w    wwwwwwwwwww     ",
+        "ww-hwwwwwwwwwwwwwwwwwwwww-ssssssssssysssssssss----ssssssssssysssssssss--sssD         w          ",
+        "ww-hhhhhhhhhhhhhf---------ssssssssssysssssssss----ssssssssssysssssssss--s--w         w          ",
+        "ww--------------f-------M-ssssssssssysssssssss----ssssssssssysssssssss--s--w         w    V     ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssyssssssssssssssG         w          ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssyssssssssssssssG         w          ",
+        "wwwwwwwwwwwwwwwwww--------ssssssssssysssssssss----ssssssssssyssssssssssssssG     wwwww          ",
+        "........w........w-M------ssssssssssysssssssss----ssssssssssysssssssss-----w         w          ",
+        "........D...c....D--------ssssssssssysssssssss----ssssssssssysssssssss--wwww         wwwwwww    ",
+        "........w........w--------ssssssssssysssssssss----ssssssssssysssssssss--w            w          ",
+        "wwwwwwwwwwwwwwwwww--------ssssssssssysssssssss----ssssssssssysssssssss--w     wwwwwwww          ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss--w            w          ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss--w            w          ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss--w            w          ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss--w                       ",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss--wwwwwwwwwwwwwwwwwwwwwwww",
+        "ww--------------f---------ssssssssssysssssssss----ssssssssssysssssssss-----fhhhhhhhhhhhhhhhhhhww",
+        "wwfffffffffffffff---------ssssssssssysssssssss----ssssssssssysssssssss-----fh-----------------ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss-M---fh-----------------  ",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss-----fhhhhhhhhhhhh------  ",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwwwwwwwwwwwwwwh------  ",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hOBBBBBw      wh------  ",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hw     w   c  wh------  ",
+        "ww------------------------ssssssssssysssssssss----ssssssssssyssssssssssssD            wh------ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hw     w      wh------ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hw     w      whhhhhh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwwwDwwwwwwwwwwwwwwwh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwB....Bw234w..b.t.wh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hOJ.....w1..w..b...wh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwJ.....wwDww......Oh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hOJ.........D......wh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwctckkrokn.w....5.wh-ww",
+        "ww------------------------ssssssssssysssssssss----ssssssssssysssssssss--hwwwwwwOwwwwwwOwwwwwh-ww",
+        "ww------------------------ssssssssssysssssssssw--wssssssssssysssssssssw-hhhhhhhhhhhhhhhhhhhhh-ww",
+        "wwwwwwwwwwwwwwwwwwwwwwwwwwssssssssssyssssssssswwwwssssssssssyssssssssswwwwwwwwwwwwwwwwwwwwwwwwww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "ww....................w--wssssssssssysssssssssw--wssssssssssysssssssssw--w....................ww",
+        "wwwwwwwwwwwwwwwwwwwwwww--wssssssssssyssssssssswwwwssssssssssysssssssssw--wwwwwwwwwwwwwwwwwwwwwww"
+      ],
+    "place_npcs": [
+  {
+    "class": "dr_chen",
+    "unique_id": "NC_DR_CHEN",
+    "x": 84,
+    "y": 70
+  }
+]
+  }
+}   
+]
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   

@@ -1,0 +1,43 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": "backfloorchamber_kane",
+    "object": {
+      "fill_ter": "t_carpet_backrooms",
+      "rows":[
+        "------------------------",
+        "-                      -",
+        "-          t           -",
+        "-         f u          -",
+        "-         a            -",
+        "-                      -",
+        "-          n           -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "------------------------"
+      ],
+      "palettes": [ "backrooms_palette" ],
+      "place_npcs": [
+  {
+    "class": "KANE_PIXEL", 
+    "x": 11,
+    "y": 4
+  }
+]
+    }
+  }
+]

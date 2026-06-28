@@ -1,0 +1,60 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": "backfloorchamber_family",
+    "object": {
+      "fill_ter": "t_carpet_backrooms",
+      "rows": [
+        "----------D-------------",
+        "-                      -",
+        "-     ---------        -",
+        "-     -acakHEC-        -",
+        "-     -.......-        -",
+        "-     -...J...-        -",
+        "-     -.m.....-        -",
+        "-     ----D----        -",
+        "-                      -",
+        "-     ---D---          -",
+        "-    -Z....H-          -",
+        "-    -......-          -",
+        "-    -..c...-          -",
+        "-    -......-          -",
+        "-    -...A..-          -",
+        "-     -----            -",
+        "-                      -",
+        "-     n                -",
+        "-                      -",
+        "-     ttt              -",
+        "-                      -",
+        "-                      -",
+        "-                      -",
+        "----------------D-------"
+      ],
+      "palettes": [
+        "backrooms_palette",
+        "backrooms_storage_palette",
+        "backrooms_breakroom_palette"
+      ],
+      "place_npcs": [
+        {
+          "class": "FAMILY_FATHER",
+          "unique_id": "FAMILY_FATHER",
+          "x": 10,
+          "y": 12
+        },
+        {
+          "class": "FAMILY_MOTHER",
+          "unique_id": "FAMILY_MOTHER",
+          "x": 12,
+          "y": 5
+        },
+        {
+          "class": "FAMILY_CHILD",
+          "unique_id": "FAMILY_CHILD",
+          "x": 11,
+          "y": 9
+        }
+      ]
+    }
+  }
+]

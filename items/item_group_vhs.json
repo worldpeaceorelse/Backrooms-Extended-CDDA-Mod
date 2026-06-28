@@ -1,0 +1,8 @@
+{ 
+  "type": "item_group",
+  "subtype": "distribution",
+  "id": "vhs_tapes",
+  "entries": [
+    { "item": "vhs_placeholder_01", "prob": 10 }
+  ]
+}

@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -19,12 +18,12 @@
         "-n,,,,,-AA-",
         "-----------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -42,12 +41,12 @@
         "-jAp   pAj-",
         "-----D-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -65,12 +64,12 @@
         "-    b n  -",
         "-----------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -88,12 +87,12 @@
         "-ZbnbZZb- -",
         "---------D-"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -111,12 +110,12 @@
         "-n AA    j-",
         "-----?-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -134,12 +133,12 @@
         "-j     A p-",
         "-----------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -157,12 +156,12 @@
         "-   A-A   -",
         "-d-------d-"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -180,12 +179,12 @@
         "d         D",
         "-----d-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -203,12 +202,12 @@
         "-bBBb bBBb-",
         "-----d-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -226,12 +225,12 @@
         "-     p hh-",
         "-----?-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -249,12 +248,12 @@
         "-jpnl  bZZ-",
         "-----d-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -269,12 +268,12 @@
         "-      -",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -289,12 +288,12 @@
         "D      D",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -309,12 +308,12 @@
         "-ZZZ-AA-",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -329,12 +328,12 @@
         "-      -",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -349,12 +348,12 @@
         "D   I h-",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -369,12 +368,12 @@
         "-      -",
         "-d----d-"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -389,12 +388,12 @@
         "- nbAlF-",
         "-d------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -409,12 +408,12 @@
         "D  ii  D",
         "--------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_breakroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -429,12 +428,12 @@
         "-  hhhn-",
         "--?-----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -445,12 +444,12 @@
         "-  -",
         "----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -461,12 +460,12 @@
         "-HC-",
         "----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -477,12 +476,12 @@
         "-hh-",
         "----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -493,12 +492,12 @@
         "-EF-",
         "----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -509,12 +508,12 @@
         "-BA-",
         "----"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -527,12 +526,12 @@
         "-Zb  d",
         "----D-"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -545,12 +544,12 @@
         "-n  l-",
         "--Dd--"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -563,12 +562,12 @@
         "-EEFE-",
         "------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -581,12 +580,12 @@
         "-p  n-",
         "--dd--"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -599,12 +598,12 @@
         "D    D",
         "------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -617,12 +616,12 @@
         "D    D",
         "------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_breakroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -635,7 +634,8 @@
         "D    D",
         "------"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_breakroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   }
 ]

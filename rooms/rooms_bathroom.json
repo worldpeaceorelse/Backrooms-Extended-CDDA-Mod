@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -19,12 +18,13 @@
         "=T=T=T=T=T=",
         "==========="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -42,12 +42,13 @@
         "=T=T=T=  T=",
         "==========="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -65,12 +66,13 @@
         "=j       j=",
         "=====D====="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms", "j": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -88,12 +90,13 @@
         "=         =",
         "=?========="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms", "j": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -108,12 +111,12 @@
         "=T=T= T=",
         "========"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -128,12 +131,13 @@
         "=BCCCBn=",
         "========"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms", "j": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -148,12 +152,13 @@
         "=TTTTTT=",
         "========"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "j": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_bathroom",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -168,12 +173,13 @@
         "=BCCCCB=",
         "========"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_bathroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -184,12 +190,13 @@
         "=nC=",
         "===="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_bathroom",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -200,12 +207,13 @@
         "=nT=",
         "===="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_bathroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -218,12 +226,13 @@
         "=nCCB=",
         "======"
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": { "n": "t_tile_backrooms" },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_bathroom",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -236,7 +245,13 @@
         "=B ij=",
         "==D==="
       ],
-      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ]
+      "terrain": {
+        "?": [ [ "t_door_c", 10 ], [ "t_door_o", 5 ], [ "t_backroom_wall_gray", 75 ] ],
+        "n": "t_tile_backrooms",
+        "j": "t_tile_backrooms"
+      },
+      "palettes": [ "backrooms_palette", "backrooms_bathroom_palette" ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   }
 ]

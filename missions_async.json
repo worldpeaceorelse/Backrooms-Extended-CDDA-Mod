@@ -1,0 +1,34 @@
+{
+  "id": "MISSION_ASYNC_RECOVER_DATA",
+  "type": "mission_definition",
+  "name": { "str": "Recover Async Research Data" },
+  "description": "Find Dr. Chen's body and retrieve the research data drive.",
+  "difficulty": 3,
+  "value": 25000,
+  "goal": "MGOAL_CONDITION",
+  "goal_condition": { "u_has_item": "async_data_drive" },
+  "origins": [ "ORIGIN_SECONDARY" ],
+  "start": {
+    "assign_mission_target": {
+      "om_terrain": "backfloorchamber_async_dead",
+      "reveal_radius": 3,
+      "z": 0
+    }
+  },
+  "dialogue": {
+    "describe": "We need that data.",
+    "offer": "Dr. Chen was carrying the data drive when he went missing. Find him and bring it back.",
+    "accepted": "Be careful. The Lifeform is still out there.",
+    "rejected": "Then we're all doomed.",
+    "advice": "Check the containment chamber on the lower level.",
+    "inquire": "Did you find the data?",
+    "success": "You found it! This data might save us all.",
+    "success_lie": "That's not the data drive. Keep looking.",
+    "failure": "You couldn't find it? We're running out of time."
+  },
+  "end": {
+    "effect": [
+      { "u_add_var": "async_mission_complete", "value": "yes" }
+]
+  }
+}

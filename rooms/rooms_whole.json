@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -31,12 +30,12 @@
         "-   Q  q  -----   -     ",
         "Q                 -     "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -66,12 +65,12 @@
         "-   -    Q      --Q---  ",
         "-   -    -      -       "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -101,12 +100,12 @@
         "-                       ",
         "-                       "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -136,12 +135,12 @@
         "Q  --     Q  -   -   o  ",
         "-         -  Q       -  "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -171,12 +170,12 @@
         "-       -      -        ",
         "-       -      -        "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backrooms_whole",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -206,6 +205,7 @@
         "Q           q        -  ",
         "-           q        -  "
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   }

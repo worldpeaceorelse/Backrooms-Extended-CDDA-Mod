@@ -1,0 +1,397 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_FAMILY_FATHER",
+    "name": { "str": "Deranged Father" },
+    "job_description": "The patriarch of a broken family.",
+    "traits": [
+      { "trait": "PSYCHOPATH" },
+      { "trait": "SPIRITUAL" },
+      { "trait": "INSOMNIA" }
+    ],
+    "common": false,
+    "worn_override": "FAMILY_FATHER_worn",
+    "weapon_override": "FAMILY_FATHER_wield",
+    "skills": [
+      { "skill": "melee", "bonus": { "rng": [ 2, 4 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_FATHER_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tshirt", "prob": 100 },
+      { "item": "pants", "prob": 100 },
+      { "item": "sneakers", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_FATHER_wield",
+    "subtype": "collection",
+    "entries": [
+      { "item": "knife_butcher", "prob": 100 }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_FAMILY_MOTHER",
+    "name": { "str": "Deranged Mother" },
+    "job_description": "The matriarch of a broken family.",
+    "traits": [
+      { "trait": "PSYCHOPATH" },
+      { "trait": "SPIRITUAL" },
+      { "trait": "INSOMNIA" }
+    ],
+    "common": false,
+    "worn_override": "FAMILY_MOTHER_worn",
+    "weapon_override": "FAMILY_MOTHER_wield",
+    "skills": [
+      { "skill": "melee", "bonus": { "rng": [ 1, 3 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_MOTHER_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "dress", "prob": 100 },
+      { "item": "sneakers", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_MOTHER_wield",
+    "subtype": "collection",
+    "entries": [
+      { "item": "pipe", "prob": 100 }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_FAMILY_CHILD",
+    "name": { "str": "Deranged Child" },
+    "job_description": "A child who has lost all innocence.",
+    "traits": [
+      { "trait": "PSYCHOPATH" },
+      { "trait": "INSOMNIA" }
+    ],
+    "common": false,
+    "worn_override": "FAMILY_CHILD_worn",
+    "weapon_override": "FAMILY_CHILD_wield",
+    "skills": [
+      { "skill": "melee", "bonus": { "rng": [ 0, 2 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_CHILD_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tshirt", "prob": 100 },
+      { "item": "jeans", "prob": 100 },
+      { "item": "sneakers", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "FAMILY_CHILD_wield",
+    "subtype": "collection",
+    "entries": [
+      { "item": "knife_butcher", "prob": 100 }
+    ]
+  },
+  {
+    "type": "npc",
+    "id": "FAMILY_FATHER",
+    "name_unique": "The Father",
+    "gender": "male",
+    "class": "NC_FAMILY_FATHER",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_FAMILY_FATHER",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc",
+    "id": "FAMILY_MOTHER",
+    "name_unique": "The Mother",
+    "gender": "female",
+    "class": "NC_FAMILY_MOTHER",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_FAMILY_MOTHER",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc",
+    "id": "FAMILY_CHILD",
+    "name_unique": "The Child",
+    "gender": "male",
+    "class": "NC_FAMILY_CHILD",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_FAMILY_CHILD",
+    "faction": "no_faction"
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_FATHER",
+    "dynamic_line": "Oh... visitors. We don't get visitors anymore. The voices told us to stop answering the door. But you're here now. You're real, right?",
+    "responses": [
+      {
+        "text": "Who are you people?",
+        "topic": "TALK_FAMILY_FATHER_WHO"
+      },
+      {
+        "text": "What happened to you?",
+        "topic": "TALK_FAMILY_FATHER_WHAT"
+      },
+      {
+        "text": "...I think I'll leave now.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_FATHER_WHO",
+    "dynamic_line": "We're... we were a family. A normal family. We had a house, a yard, a dog. Then we fell through the floor. Or the ceiling. Or... I don't remember. But we're here now. And we've been here so long that I don't remember what normal felt like.",
+    "responses": [
+      {
+        "text": "That's horrible.",
+        "topic": "TALK_FAMILY_FATHER"
+      },
+      {
+        "text": "The dog?",
+        "topic": "TALK_FAMILY_FATHER_DOG"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_FATHER_DOG",
+    "dynamic_line": "The dog... the dog didn't make it. It couldn't handle the hum. The lights drove it insane. We had to... put it down. It's still here, in a way. The bones are under the floor. Sometimes I hear it barking. At night. When the hum gets loud.",
+    "responses": [
+      {
+        "text": "I think I need to go.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_FATHER_WHAT",
+    "dynamic_line": "What happened? The Backrooms happened. It just... takes you. Slowly. First your sanity, then your hope, then your will to leave. We built a house in here. A home. We pretend it's real. Sometimes we even believe it. But we know the truth. We're never getting out.",
+    "responses": [
+      {
+        "text": "I'm sorry.",
+        "topic": "TALK_FAMILY_FATHER"
+      },
+      {
+        "text": "You could try to leave.",
+        "topic": "TALK_FAMILY_FATHER_LEAVE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_FATHER_LEAVE",
+    "dynamic_line": "Leave? No. This is our home now. The carpet is our garden. The hum is our lullaby. The walls are our sky. We're not leaving. We're... complete. But you can leave. And you will. Just like the others did. And when you forget about us, we'll still be here. Forever. In the hum.",
+    "responses": [
+      {
+        "text": "Goodbye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_MOTHER",
+    "dynamic_line": "Oh, a visitor! We haven't had a visitor in so long. Would you like some tea? No, wait, we don't have tea. We haven't had tea in... in a very long time. But we have water! The water is always here. The water is... safe.",
+    "responses": [
+      {
+        "text": "Are you okay?",
+        "topic": "TALK_FAMILY_MOTHER_OKAY"
+      },
+      {
+        "text": "What happened to your family?",
+        "topic": "TALK_FAMILY_MOTHER_HAPPENED"
+      },
+      {
+        "text": "I should go.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_MOTHER_OKAY",
+    "dynamic_line": "Okay? No. We're not okay. We're never okay. But we pretend. Every day we pretend that this is normal. That the carpet is grass and the hum is birdsong. We lie to ourselves so we can survive. And I... I'm the best liar in the family.",
+    "responses": [
+      {
+        "text": "That's... sad.",
+        "topic": "TALK_FAMILY_MOTHER"
+      },
+      {
+        "text": "How do you keep going?",
+        "topic": "TALK_FAMILY_MOTHER_KEEP_GOING"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_MOTHER_KEEP_GOING",
+    "dynamic_line": "We keep going because we have to. Because if we stop, we'll die. And dying in the Backrooms... it's not like dying outside. You don't find peace. You just... join the hum. Become part of the endless buzzing. And I'm not ready to become a lightbulb yet.",
+    "responses": [
+      {
+        "text": "I understand.",
+        "topic": "TALK_FAMILY_MOTHER"
+      },
+      {
+        "text": "That's terrifying.",
+        "topic": "TALK_FAMILY_MOTHER"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_MOTHER_HAPPENED",
+    "dynamic_line": "We fell. That's all I remember. One moment we were walking through a door, and the next... this. The Backrooms. My husband broke first. Then the dog. Then... then my little boy. He stopped talking. He just... stares. At the walls. At the lights. He's waiting for something. I don't know what.",
+    "responses": [
+      {
+        "text": "I'm sorry.",
+        "topic": "TALK_FAMILY_MOTHER"
+      },
+      {
+        "text": "Maybe I can help.",
+        "topic": "TALK_FAMILY_MOTHER_HELP"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_MOTHER_HELP",
+    "dynamic_line": "Help? No one can help us. We're beyond help. We're beyond saving. We're just... here. Existing. Waiting for the hum to claim us completely. But you can help yourself. Leave. Don't become like us. Don't let the Backrooms take your soul.",
+    "responses": [
+      {
+        "text": "I'll remember that.",
+        "topic": "TALK_FAMILY_MOTHER"
+      },
+      {
+        "text": "Goodbye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD",
+    "dynamic_line": "...",
+    "responses": [
+      {
+        "text": "Hey, kid. Are you okay?",
+        "topic": "TALK_FAMILY_CHILD_OKAY"
+      },
+      {
+        "text": "...Hello?",
+        "topic": "TALK_FAMILY_CHILD_HELLO"
+      },
+      {
+        "text": "I'll leave you alone.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_OKAY",
+    "dynamic_line": "I don't know what 'okay' means anymore. I used to. Before the hum. Now the hum is everything. The hum is my father. The hum is my mother. The hum is the walls and the floor and the ceiling. The hum is... home.",
+    "responses": [
+      {
+        "text": "That's not healthy.",
+        "topic": "TALK_FAMILY_CHILD"
+      },
+      {
+        "text": "Can you hear the hum?",
+        "topic": "TALK_FAMILY_CHILD_HUM"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_HUM",
+    "dynamic_line": "I can always hear it. Even when it stops, I hear it. It's in my bones. In my teeth. In the back of my skull. Sometimes I try to talk back to it. Sometimes it answers. It tells me to... to... do things. Bad things. But I don't do them. Not yet. Not until the hum tells me to.",
+    "responses": [
+      {
+        "text": "That's... really disturbing.",
+        "topic": "TALK_FAMILY_CHILD"
+      },
+      {
+        "text": "I think I need to go.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_HELLO",
+    "dynamic_line": "...you're real. You're actually real. I thought you were a dream. I have a lot of dreams. Bad dreams. Dreams where the walls eat me. But you're not a dream. You're... you're real. You're real! I haven't seen anyone real in so long!",
+    "responses": [
+      {
+        "text": "I'm real. I'm here.",
+        "topic": "TALK_FAMILY_CHILD_REAL"
+      },
+      {
+        "text": "Who else have you seen?",
+        "topic": "TALK_FAMILY_CHILD_OTHERS"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_REAL",
+    "dynamic_line": "I'm sorry, I'm just... I'm so tired. Of the hum. Of the carpet. Of the endless, endless rooms. My family is here but they're not really here. They're just... bodies. The hum took their souls. I'm the only one left. The only one still fighting.",
+    "responses": [
+      {
+        "text": "You're strong.",
+        "topic": "TALK_FAMILY_CHILD"
+      },
+      {
+        "text": "I believe in you.",
+        "topic": "TALK_FAMILY_CHILD"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_OTHERS",
+    "dynamic_line": "Others? No. No others. Just the voices. The hum. The ghosts. They're not real. I know they're not real. But sometimes I see them. At the edge of my vision. They wave at me. They want me to follow. I never follow. I learned that lesson a long time ago.",
+    "responses": [
+      {
+        "text": "What lesson?",
+        "topic": "TALK_FAMILY_CHILD_LESSON"
+      },
+      {
+        "text": "Goodbye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FAMILY_CHILD_LESSON",
+    "dynamic_line": "The lesson that the Backrooms teaches you. Don't follow the ghosts. Don't trust the lights. Don't listen to the hum. And above all... never, ever stop moving. The moment you stop, the Backrooms wins. And you become part of the carpet.",
+    "responses": [
+      {
+        "text": "Thank you for the advice.",
+        "topic": "TALK_FAMILY_CHILD"
+      },
+      {
+        "text": "I'll remember that.",
+        "topic": "TALK_FAMILY_CHILD"
+      }
+    ]
+  }
+]

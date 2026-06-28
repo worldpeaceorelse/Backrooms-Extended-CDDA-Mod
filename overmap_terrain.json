@@ -1,0 +1,387 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "backfloorchamber",
+    "terrains": [ "backfloorchamber" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber",
+    "name": "backroom chamber",
+    "sym": ".",
+    "color": "white",
+    "see_cost": "full_high",
+    "spawns": { "group": "GROUP_BACKROOMS", "population": [ 2, 15 ], "chance": 40 },
+    "extras": "backrooms"
+  },
+  {
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_pitfalls",
+  "name": "pitfalls",
+  "sym": "#",
+  "color": "white",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ],
+  "extras": "backrooms"
+},
+  {
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_hotel_doors",
+  "name": "Hotel Corridor",
+  "sym": "H",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_hotel_shifted",
+  "name": "Shifted Room",
+  "sym": "S",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_async_station",
+  "name": "Async Research Station",
+  "sym": "A",
+  "color": "cyan",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_async_dead",
+  "name": "Async Scientist Corpse",
+  "sym": "D",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+  {
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_kane",
+  "name": "Kane's Room",
+  "sym": "K",
+  "color": "cyan",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_family",
+  "name": "Strange Family",
+  "sym": "F",
+  "color": "green",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_hotela",
+  "name": "Hotel Floor",
+  "sym": "H",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_hotelb",
+  "name": "Hotel Floor",
+  "sym": "H",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+{
+  "type": "overmap_terrain",
+  "id": "backfloorchamber_hotel_lobby",
+  "name": "Hotel Lobby",
+  "sym": "L",
+  "color": "red",
+  "see_cost": "full_high",
+  "flags": [ "NO_ROTATE" ]
+},
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_nw",
+    "name": "Backfloor Tunnel (NW)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_n",
+    "name": "Backfloor Tunnel (N)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_n1",
+    "name": "Backfloor Tunnel (N1)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_ne",
+    "name": "Backfloor Tunnel (NE)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_nw",
+    "name": "Backfloor Chamber (NW)",
+    "sym": "C",
+    "color": "white",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_n",
+    "name": "Backfloor Chamber (N)",
+    "sym": "C",
+    "color": "white",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_n1",
+    "name": "Backfloor Chamber (N1)",
+    "sym": "C",
+    "color": "white",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_ne",
+    "name": "Backfloor Chamber (NE)",
+    "sym": "C",
+    "color": "white",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_w",
+    "name": "Backfloor Chamber (W)",
+    "sym": "C",
+    "color": "yellow",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_c",
+    "name": "Backfloor Chamber (C)",
+    "sym": "C",
+    "color": "yellow",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_c1",
+    "name": "Backfloor Chamber (C1)",
+    "sym": "C",
+    "color": "yellow",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_e",
+    "name": "Backfloor Chamber (E)",
+    "sym": "C",
+    "color": "yellow",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_w1",
+    "name": "Backfloor Chamber (W1)",
+    "sym": "C",
+    "color": "blue",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_c2",
+    "name": "Backfloor Chamber (C2)",
+    "sym": "C",
+    "color": "blue",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_c3",
+    "name": "Backfloor Chamber (C3)",
+    "sym": "C",
+    "color": "blue",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_e1",
+    "name": "Backfloor Chamber (E1)",
+    "sym": "C",
+    "color": "blue",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_sw",
+    "name": "Backfloor Chamber (SW)",
+    "sym": "C",
+    "color": "green",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_s",
+    "name": "Backfloor Chamber (S)",
+    "sym": "C",
+    "color": "green",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_s1",
+    "name": "Backfloor Chamber (S1)",
+    "sym": "C",
+    "color": "green",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_neigh_se",
+    "name": "Backfloor Chamber (SE)",
+    "sym": "C",
+    "color": "green",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_sw",
+    "name": "Backfloor Tunnel (SW)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_s",
+    "name": "Backfloor Tunnel (S)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_s1",
+    "name": "Backfloor Tunnel (S1)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backfloorchamber_tunnel_se",
+    "name": "Backfloor Tunnel (SE)",
+    "sym": "T",
+    "color": "light_gray",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "backroom_stairs_bottom", "backroom_stairs_top" ],
+    "name": "backroom stairs",
+    "sym": "S",
+    "color": "white",
+    "see_cost": "full_high",
+    "spawns": { "group": "GROUP_BACKROOMS", "population": [ 2, 15 ], "chance": 40 },
+    "extras": "backrooms",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "backroom_border",
+    "name": "",
+    "sym": ".",
+    "color": "white",
+    "see_cost": "full_high",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": [ "backfloorchamber" ],
+    "object": {
+      "fill_ter": "t_carpet_backrooms",
+      "place_nested": [
+        { "chunks": [ [ "mx_backrooms_whole", 100 ] ], "x": 0, "y": 0 },
+        {
+          "chunks": [
+            [ "null", 250 ],
+            [ "mx_backroom_big_empty", 50 ],
+            [ "mx_backroom_big_generic", 50 ],
+            [ "mx_backroom_big_common", 100 ],
+            [ "mx_backroom_big_storage", 25 ],
+            [ "mx_backroom_big_breakroom", 25 ],
+            [ "mx_backroom_big_bathroom", 20 ]
+          ],
+          "x": [ 0, 13 ],
+          "y": [ 0, 13 ],
+          "repeat": [ 0, 2 ]
+        },
+        {
+          "chunks": [
+            [ "null", 250 ],
+            [ "mx_backroom_small_empty", 50 ],
+            [ "mx_backroom_small_generic", 50 ],
+            [ "mx_backroom_small_common", 100 ],
+            [ "mx_backroom_small_storage", 25 ],
+            [ "mx_backroom_small_breakroom", 25 ],
+            [ "mx_backroom_small_bathroom", 20 ]
+          ],
+          "x": [ 0, 18 ],
+          "y": [ 0, 18 ],
+          "repeat": [ 0, 3 ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "backroom_border",
+    "object": { "fill_ter": "t_backroom_wall_border" }
+  }
+]

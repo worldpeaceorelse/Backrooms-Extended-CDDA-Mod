@@ -1,0 +1,62 @@
+{
+  "type": "palette",
+  "id": "backrooms_palette_confined_neighborhood",
+  "terrain": {
+    " ": [ [ "t_carpet_backrooms", 95 ], [ "t_carpet_backrooms_light", 5 ] ],
+    ".": [ "t_carpet_backrooms_light" ],
+    "g": [ "t_backroom_wall" ],
+    "w": [ "t_concrete_wall" ],
+    "s": [ "t_asphalt" ],
+    "y": [ "t_asphalt_yellow_line" ],
+    "x": [ "t_sidewalk" ],
+    "-": [ "t_grass_fake" ],
+    "d": [ "t_dirt" ],
+    "f": [ "t_chainfence" ],
+    "h": [ "t_hedge" ],
+    "#": [ "t_carpet_red" ],
+    "D": [ [ "t_door_c", 75 ], [ "t_door_o", 25 ] ],
+    "M": [ "t_mailbox" ],
+    "L": [ "t_streetlight" ],
+	"G": [ "t_garage_door" ],
+	"O": [ "t_window" ]
+  },
+  "furniture": {
+    "b": [ "f_bed" ],
+    "c": [ "f_chair" ],
+    "t": [ "f_table" ],
+    "J": [ "f_sofa" ],
+    "k": [ "f_kitchen_counter" ],
+    "o": [ "f_oven" ],
+    "r": [ "f_fridge" ],
+    "l": [ "f_floor_lamp" ],
+    "B": [ "f_bookcase" ],
+    "m": [ "f_mailbox" ],
+    "a": [ [ "f_null", 5 ], [ "f_chair", 10 ] ],
+    "n": [ "f_trashcan" ],
+	"V": [ "f_old_television" ],
+    "A": [ "f_cardboard_box" ],
+	"1": [ "f_cupboard"],
+    "2": [ "f_sink"],
+	"3": [ "f_toilet" ],
+	"4": [ "f_shower" ],
+	"5": [ "f_bigmirror" ]
+  },
+  "items": {
+    "b": [ { "item": "backrooms_master_bedroom", "chance": 50 } ],
+    "c": [ { "item": "backrooms_master_table_office", "chance": 25 } ],
+    "t": [ { "item": "backrooms_master_table_office", "chance": 25 } ],
+    "k": [ { "item": "backrooms_master_countertop_kitchen", "chance": 50 } ],
+    "r": [ { "item": "backrooms_master_fridge", "chance": 95 } ],
+    "B": [ { "item": "backrooms_master_bookshelf", "chance": 80 } ],
+    " ": {
+      "item": {
+        "subtype": "distribution",
+        "entries": [ { "item": "null", "prob": 20000 }, { "group": "backrooms_artifacts", "prob": 1 } ]
+      },
+      "chance": 100
+    },
+    "n": [ { "item": "backrooms_master_trash", "chance": 40 } ],
+    "A": [ { "item": "backrooms_master_cardboard", "chance": 50 } ]
+  }
+ 
+}

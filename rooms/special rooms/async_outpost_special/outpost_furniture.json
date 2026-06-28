@@ -1,0 +1,89 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_async_computer",
+    "name": "Async computer terminal",
+    "symbol": "C",
+    "color": "green",
+	"looks_like": "f_console",
+    "description": "A bulky 1980s computer terminal with a CRT monitor.  It's still running and displaying lines of code but seems to be frozen.",
+    "move_cost_mod": 0,
+    "coverage": 30,
+    "required_str": 4,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "shatter!",
+      "items": [
+        { "item": "e_scrap", "count": [ 2, 4 ] },
+        { "item": "cable", "count": [ 1, 2 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_async_rack",
+    "name": "broken server rack",
+    "symbol": "R",
+	"looks_like": "t_console_broken",
+    "color": "dark_gray",
+    "description": "A tall metal rack filled with humming servers.  Lights blink in erratic patterns.",
+    "move_cost_mod": 0,
+    "coverage": 30,
+    "required_str": 6,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "clang!",
+      "items": [
+        { "item": "e_scrap", "count": [ 3, 6 ] },
+        { "item": "cable", "count": [ 2, 4 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_async_desk",
+    "name": "research desk",
+    "symbol": "D",
+	"looks_like": "f_lab_bench",
+    "color": "brown",
+    "description": "A metal desk cluttered with papers, coffee mugs, and a half-eaten sandwich.",
+    "move_cost_mod": 0,
+    "coverage": 30,
+    "required_str": 5,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "crash!",
+      "items": [
+        { "item": "2x4", "count": [ 2, 4 ] },
+        { "item": "nail", "count": [ 4, 8 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_async_chair",
+    "name": "office chair",
+    "symbol": "h",
+	"looks_like": "f_chair",
+    "color": "dark_gray",
+    "description": "A worn, rolling office chair.  One of the armrests is missing.",
+    "move_cost_mod": 2,
+    "coverage": 10,
+    "required_str": 2,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 2,
+      "str_max": 6,
+      "sound": "thump!",
+      "items": [
+        { "item": "scrap", "count": [ 1, 2 ] }
+      ]
+    }
+  }
+]

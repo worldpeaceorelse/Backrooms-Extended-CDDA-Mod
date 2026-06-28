@@ -1,0 +1,95 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": "backfloorchamber_async_station",
+    "object": {
+      "fill_ter": "t_metal_floor",
+      "rows": [
+        "000000000000000000000000",
+        "--------DD-------------0",
+        "-R.aC.R-..-C....C....C-0",
+        "-R....R-..-C....C....C-0",
+        "-R....R-..-C....C....C-0",
+        "-R....R-..-C....C....C-0",
+        "-R....R-..-C....C....C-0",
+        "---D----DD----D---D-----",
+        "-......................-",
+        "-............==........D",
+        "-==..........==........D",
+        "-.....==...............-",
+        "-....===.........-------",
+        "----.---.........D.....-",
+        "-kok.kr-.........-Z.Z.Z-",
+        "-......-.........-Z.Z.Z-",
+        "-......-.........-------",
+        "-................-.....-",
+        "-................-.....-",
+        "---D----DD---D----.....-",
+        "-f....f-..-b....b-.....-",
+        "-fb..bf-..-b....b-.....-",
+        "-f....f-..-b....b-.....-",
+        "--------DD--------------"
+       ],
+      "palettes": [ "backrooms_palette_station" ],
+	  "computers": {
+    "a": {
+    "name": "Async Research Terminal",
+	"eocs": [ "EOC_COMBINED_N_REVEAL", "EOC_ASYNC_OUTPOST_COMPUTER", "EOC_COORDINATE_MESSAGE" ],
+    "chat_topics": [ "COMP_ASYNC_OUTPOST" ]
+	  }
+	  },
+      "place_npcs": [
+        {
+          "class": "ASYNC_GUARD",
+          "unique_id": "ASYNC_GUARD",
+          "x": 5,
+          "y": 4
+        },
+        {
+          "class": "ASYNC_SCIENTIST",
+          "unique_id": "ASYNC_SCIENTIST",
+          "x": 14,
+          "y": 4
+        },
+        {
+          "class": "ASYNC_ENGINEER",
+          "unique_id": "ASYNC_ENGINEER",
+          "x": 5,
+          "y": 21
+        }
+	]
+	}
+  },
+	{
+  "type": "talk_topic",
+  "id": "COMP_ASYNC_OUTPOST",
+  "dynamic_line": "64.1083024, -22.0125086 - we need to check this out as soon as possible. A large tunnel with a road connecting to the complex.",
+  "responses": [
+    {
+      "text": "Log out.",
+      "topic": "TALK_DONE"
+    }
+	]
+	},
+	{
+  "id": "EOC_ASYNC_OUTPOST_COMPUTER",
+  "type": "effect_on_condition",
+  "effect": [ "open_dialogue" ]
+},
+{
+  "id": "EOC_COORDINATE_MESSAGE",
+  "type": "effect_on_condition",
+  "effect": [ { "u_message": "You think really hard and memorize the coordinates that were displayed on the terminal." } ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_COMBINED_N_REVEAL",
+  "effect": [
+    {
+      "u_location_variable": { "context_val": "loc" },
+      "target_params": { "om_terrain": "backfloorchamber_tunnel_n", "z": 0 }
+    },
+    { "reveal_map": { "context_val": "loc" }, "radius": 20 }
+      ]
+    }
+  ]

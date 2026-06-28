@@ -1,0 +1,102 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_wood_wall",
+    "name": "wood panel wall",
+    "description": "A solid wall made of dark, polished wood panels.  It looks expensive and smells faintly of furniture polish.",
+    "symbol": "#",
+    "color": "brown",
+    "looks_like": "t_wall_w",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "connect_groups": "WALL",
+    "connects_to": "WALL",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 20,
+      "str_max": 50,
+      "sound": "crash!",
+      "sound_fail": "thump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "t_wood_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_wood_floor",
+    "name": "wood floor",
+    "description": "A polished wooden floor, slightly worn from years of foot traffic.  It creaks softly under your weight.",
+    "symbol": ".",
+    "color": "brown",
+    "looks_like": "t_floor",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_wood_floor_light",
+    "name": "wood floor, overhead light",
+    "description": "A polished wooden floor, illuminated by a warm ceiling light.  It creaks softly under your weight.",
+    "symbol": "=",
+    "color": "brown",
+    "move_cost": 2,
+    "light_emitted": 120,
+    "looks_like": "t_wood_floor",
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "splintering wood!",
+      "sound_fail": "thump!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_wood_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_red_carpet",
+    "name": "red carpet",
+    "description": "A thick, plush red carpet, slightly faded but still luxurious.  It muffles your footsteps.",
+    "symbol": ",",
+    "color": "red",
+    "looks_like": "t_carpet_red",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT", "RUG" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_red_carpet_light",
+    "name": "red carpet, overhead light",
+    "description": "A thick, plush red carpet, illuminated by a warm ceiling light.  It muffles your footsteps.",
+    "symbol": ".",
+    "color": "red",
+    "move_cost": 2,
+    "light_emitted": 120,
+    "looks_like": "t_red_carpet",
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT", "RUG" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "ripping fabric!",
+      "sound_fail": "thump!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_red_carpet"
+    }
+  }
+]

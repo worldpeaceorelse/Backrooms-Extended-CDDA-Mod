@@ -1,0 +1,32 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "COMP_OLD_TV_MAIN",
+    "dynamic_line": "The screen flickers to life. Nothing but the hiss of static and distorted noise.",
+    "responses": [
+      {
+        "text": "Insert the moldy VHS tape.",
+        "condition": { "u_has_item": "vhs_placeholder_01" },
+        "effect": [
+          { "u_message": "You slide the tape into the slot. The VCR whirs to life… static… then a grainy image appears.", "type": "good" }
+        ],
+        "topic": "COMP_OLD_TV_VHS1"
+      },
+      {
+        "text": "Turn off the TV.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "COMP_OLD_TV_VHS1",
+    "dynamic_line": "The tape starts with a bunch of quick, disconnected clips—someone's daily routine. Random shots of a kitchen, a desk, a street. Then it cuts to a car's dashboard, and a radio announcer is clearly saying '-in the Oklahoma City bombin-' before the recording cuts off abruptly. Next, the same guy—Ravi, you gather from him muttering to himself—is at what looks like an office. He's talking about things he accidentally recorded earlier, but the footage suddenly speeds up and the audio warps into unintelligible gibberish. That lasts a few seconds, then it jumps to him arriving home. He walks in, drops his stuff, sits at a table with papers, and the screen goes black. While it's black, you hear Ravi on a phone call. He's talking to someone when he pauses—he hears thumping and banging from downstairs. He asks the person on the phone if anyone's supposed to be working on the lower level today. He doesn't get a reassuring answer, so he goes to check. He finds his glass back door shattered, pieces all over the floor. He keeps moving into the basement. The lights flicker, the floor rumbles, then suddenly the ground gives way and he falls through a hole. He lands in some kind of tunnel or pit and tries to claw his way back up, but the walls are too smooth—he can't get a grip. From there, he's wandering through an endless maze of yellowish rooms with low ceilings and buzzing fluorescent lights. The walls are damp wallpaper, the carpet is soaked. He walks through corridor after corridor, sometimes passing through larger empty spaces. At one point he looks out a window and sees a whole city in the distance, glowing red, but it doesn't look like any normal city. While exploring, he rounds a corner and spots a figure standing completely still. It's shaped like a man in a dark suit, but where its face should be there's nothing—just blank, smooth skin. It let's out a scream and chases him. Ravi runs anyway. Later, he finds what looks like an ordinary house, but when he steps inside, the sky visible through the windows is obviously fake—too bright, too flat, like a painted backdrop. A man's voice suddenly shouts from somewhere, telling Ravi to get out. Ravi yells back, trying to explain he's lost, but they can't find each other. The voice accuses Ravi of hiding inside the walls. You hear pounding, then drywall cracking and being torn open. A loud scream— then nothing. Ravi panics and flees the house, never going back. The final scene is Ravi sitting alone in some dark, quiet spot. He starts talking softly about a childhood memory—something about his grandmother's porch, a summer afternoon. He's in the middle of a sentence when the camera's battery icon starts blinking. The picture freezes for a second, then goes black. The audio cuts out mid-word. That's the end of the tape.",
+    "responses": [
+      {
+        "text": "Turn off the TV.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

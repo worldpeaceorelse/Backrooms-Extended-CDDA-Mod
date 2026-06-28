@@ -1,0 +1,129 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_DR_CHEN",
+    "name": { "str": "Dr. Chen" },
+    "job_description": "A former lead researcher who has long since abandoned any pretense of sanity. The Backrooms stripped away everything – his work, his dignity, and finally his clothes. He now wanders, muttering truths that no one else can comprehend.",
+    "common": false,
+    "bonus_int": { "rng": [ 8, 12 ] },
+    "bonus_per": { "rng": [ 2, 4 ] },
+    "skills": [
+      { "skill": "computer", "level": { "rng": [ 7, 9 ] } },
+      { "skill": "electronics", "level": { "rng": [ 6, 8 ] } },
+      { "skill": "firstaid", "level": { "rng": [ 4, 6 ] } },
+      { "skill": "chemistry", "level": { "rng": [ 8, 10 ] } },
+      { "skill": "speech", "level": { "rng": [ 1, 2 ] } }
+    ],
+    "worn_override": "NC_DR_CHEN_naked",
+    "carry_override": "NC_DR_CHEN_nothing",
+    "weapon_override": "NC_DR_CHEN_nothing"
+  },
+  {
+  "type": "item_group",
+  "id": "NC_DR_CHEN_naked",
+  "items": []
+},
+{
+  "type": "item_group",
+  "id": "NC_DR_CHEN_nothing",
+  "items": []
+},
+{
+  "type": "npc",
+  "id": "dr_chen",
+  "//": "He's lost his mind as well as his clothes.",
+  "name_unique": "Chen",
+  "name_suffix": "the Hollow",
+  "class": "NC_DR_CHEN",
+  "attitude": 0,
+  "mission": 7,
+  "chat": "TALK_DR_CHEN_INSANE",
+  "faction": "async",
+  "age": 43,
+  "personality": {
+    "aggression": -2,
+    "bravery": 5,
+    "collector": 0,
+    "altruism": -5
+  }
+},
+{
+  "type": "talk_topic",
+  "id": "TALK_DR_CHEN_INSANE",
+  "dynamic_line": "You're still wearing them. The fabrics. The lies... Heh, I tore mine off months ago. They were holding me down, muting the voices. You can't hear them yet, can you? The walls have a voice. A beautiful, sepharic voice. ",
+  "responses": [
+    {
+      "text": "What the fuck happened to you?",
+      "topic": "TALK_DR_CHEN_HISTORY"
+    },
+    {
+      "text": "Wait, you're saying the walls talk to you?",
+      "topic": "TALK_DR_CHEN_WHISPERS"
+    },
+    {
+      "text": "I'm leaving.",
+      "topic": "TALK_DONE"
+    }
+  ]
+},
+{
+  "type": "talk_topic",
+  "id": "TALK_DR_CHEN_HISTORY",
+  "dynamic_line": "The backrooms happened to me- trying to chart the structure of this place. The more I understood, the less I identified with my old false-self. One day I looked down and realized I had forgotten why I needed clothes – or why I needed any of it. The project, the institute... my family, my friends. Anything.",
+  "responses": [
+    {
+      "text": "You've given up on escaping? Seriously?",
+      "topic": "TALK_DR_CHEN_ESCAPE"
+    },
+    {
+      "text": "...",
+      "topic": "TALK_DR_CHEN_INSANE"
+    }
+  ]
+},
+{
+  "type": "talk_topic",
+  "id": "TALK_DR_CHEN_WHISPERS",
+  "dynamic_line": "Oh yes. Can't you hear them? There's a house across the street with nothing but a chair in it. I go there and sit for hours. I was sitting in there when I heard you approaching actually. Way to ruin a perfect moment.",
+  "responses": [
+    {
+      "text": "That's not any kind of life...",
+      "topic": "TALK_DR_CHEN_INSANE"
+    },
+    {
+      "text": "You said something about a threshold before?",
+      "topic": "TALK_DR_CHEN_THRESHOLDS"
+    }
+  ]
+},
+{
+  "type": "talk_topic",
+  "id": "TALK_DR_CHEN_ESCAPE",
+  "dynamic_line": "Escape? There is no escape. There is only deeper understanding. I stopped trying to leave when I realized that the Backrooms were realer than the real world. According to my research, the so-called real world is just an imperfect copy of this place- this paradise. But you're crazy. You could never understand.",
+  "responses": [
+    {
+      "text": "You've lost your mind.",
+      "topic": "TALK_DR_CHEN_INSANE"
+    },
+    {
+      "text": "I understand.",
+      "topic": "TALK_DR_CHEN_INSANE"
+    }
+  ]
+},
+{
+  "type": "talk_topic",
+  "id": "TALK_DR_CHEN_THRESHOLDS",
+  "dynamic_line": "Oh yeah. That thing. That's how I got here in the first place. But it's broken now and why would I want to leave this awesome place anyways?",
+  "responses": [
+    {
+      "text": "Okay Dr. Chen. Take care of yourself.",
+      "topic": "TALK_DONE"
+    },
+    {
+      "text": "Hmm...",
+      "topic": "TALK_DR_CHEN_INSANE"
+    }
+  ]
+}
+]

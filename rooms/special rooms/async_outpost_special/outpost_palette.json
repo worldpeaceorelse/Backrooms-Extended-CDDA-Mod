@@ -1,0 +1,58 @@
+[
+  {
+    "type": "palette",
+    "id": "backrooms_palette_station",
+    "terrain": {
+      " ": [ [ "t_metal_floor", 95 ], [ "t_metal_floor_light", 5 ] ],
+	  "0": [ "t_carpet_yellow" ],
+      ".": [ "t_metal_floor_light" ],
+      "|": [ "t_observation_window" ],
+	  "-": [ "t_station_wall" ],
+      "&": [ "t_async_console" ],
+      "#": [ "t_null" ],
+      "D": [ [ "t_door_c", 75 ], [ "t_door_o", 25 ] ]
+    },
+    "furniture": {
+      "a": [ "f_async_chair", 10 ],
+      "h": [ "f_async_chair", 10 ],
+      "u": [ "f_console_broken" ],
+      "b": [  "f_async_chair", 2 ],
+      "c": [ "f_table" ],
+	  "Z": [ "f_bed" ],
+	  "k": [ "f_counter" ],
+    "o": [ "f_oven" ],
+    "r": [ "f_fridge" ],
+	"=": [ "f_crate_c" ],
+      "f": [ "f_async_desk" ],
+      "R": [ "f_async_rack" ],
+      "C": [ "f_async_computer" ]
+    },
+    "liquids": { "l": { "liquid": "water_clean", "amount": [ 0, 30 ] } },
+    "items": {
+      " ": {
+        "item": {
+          "subtype": "distribution",
+          "entries": [ { "item": "null", "prob": 20000 }, { "group": "backrooms_artifacts", "prob": 1 } ]
+        },
+        "chance": 100
+      },
+      "c": [ { "item": "backrooms_master_table_office", "chance": 25 } ],
+      "k": [ { "item": "backrooms_master_cupboards", "chance": 25 } ],
+	  "r": [ { "item": "backrooms_master_fridge", "chance": 100 } ],
+      "f": [ { "item": "backrooms_master_desk", "chance": 33 } ],
+      "1": [ { "item": "backrooms_master_filing", "chance": 85 } ],
+      "m": [ { "item": "backrooms_master_coat_rack", "chance": 65 } ],
+      "=": [ { "item": "backrooms_master_trash", "chance": 40 } ],
+      "2": [ { "item": "backrooms_master_bookshelf", "chance": 80 } ],
+      "x": [ { "item": "backrooms_master_rubble", "chance": 80 } ],
+      "Z": [ { "item": "backrooms_master_bedroom", "chance": 80 } ],
+      "A": [ { "item": "backrooms_master_cardboard", "chance": 50 } ]
+    },
+    "vendingmachines": { "p": { "item_group": "backrooms_master_vending", "reinforced": true, "powered": true } },
+    "nested": {
+      "!": { "chunks": [ [ "null", 10 ], [ "mx_backroom_micro_common", 20 ], [ "mx_backroom_micro_storage", 4 ] ] },
+      "@": { "chunks": [ [ "mx_backroom_micro_storage", 20 ] ] },
+      "$": { "chunks": [ [ "mx_backroom_micro_breakroom", 20 ] ] }
+    }
+  }
+]

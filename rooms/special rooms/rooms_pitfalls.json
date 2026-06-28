@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": "backfloorchamber_pitfalls",
+    "object": {
+      "fill_ter": "t_carpet_backrooms",
+      "rows": [
+        "---D--------------------",
+        "-     ------------------",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "-  PP PP PP PP PP PP - -",
+        "-  PP PP PP PP PP PP - -",
+        "-                    - -",
+        "---------------      ---",
+        "-             -        -",
+        "---------------        -"
+      ],
+	  "palettes": [ "backrooms_palette" ],
+      "terrain": {
+        "-": "t_backroom_wall",
+        "P": "t_open_air"
+      }
+    }
+  }
+]

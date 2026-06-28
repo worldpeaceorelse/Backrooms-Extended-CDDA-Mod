@@ -1,0 +1,47 @@
+[
+  {
+    "type": "scenario",
+    "id": "backroom_dweller",
+    "name": "Backrooms",
+    "points": 0,
+    "description": "What is this place?  You can't seem to find your way back out.",
+    "allowed_locs": [ "sloc_backrooms" ],
+    "start_name": "The Backrooms",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "async_outpost",
+    "name": "Async Outpost",
+    "points": 0,
+    "description": "After hours of wandering endless halls you've stumbled upon the first seemingly human-made structure since you entered this place.",
+    "allowed_locs": [ "sloc_async" ],
+    "start_name": "Async Outpost"
+  },
+  {
+    "type": "scenario",
+    "id": "backroom_dweller_starternpc",
+    "name": "Backrooms (NPC EDITION)",
+    "points": 0,
+    "description": "What is this place?  You can't seem to find your way back out.  But hey, at least you aren't alone.  Will you cannibalize them as a last resort?  Maybe get them to surgically implant bionics into you?  Just keep them around for company?  Maybe you two will protect each other?  The possibilities have just widened, my friend, for you are no longer one.  You are two, and that's better than what it used to be like.",
+    "allowed_locs": [ "sloc_backrooms" ],
+    "start_name": "The Backrooms"
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_backrooms",
+    "name": "The Backrooms",
+    "terrain": [ "backfloorchamber" ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_async",
+    "name": "Async Outpost",
+    "terrain": [ "backfloorchamber_async_station" ]
+  },
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "whitelist",
+    "scenarios": [ "backroom_dweller", "backroom_dweller_starternpc", "async_outpost" ]
+  }
+]

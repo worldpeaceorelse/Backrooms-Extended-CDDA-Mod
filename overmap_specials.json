@@ -1,0 +1,200 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "backrooms",
+    "terrains": [ "backfloorchamber" ]
+  },
+  {
+  "type": "overmap_special",
+  "id": "backrooms_kane_spawn",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_kane" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 1, 1 ],
+  "flags": [ "BACKROOMS", "GLOBALLY_UNIQUE" ]
+},
+{
+  "type": "overmap_special",
+  "id": "backrooms_family_spawn",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_family" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 1, 1 ],
+  "flags": [ "BACKROOMS", "GLOBALLY_UNIQUE" ]
+},
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z0",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, 1 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z1",
+    "overmaps": [
+      { "point": [ 0, 0, 1 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, 2 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z2",
+    "overmaps": [
+      { "point": [ 0, 0, 2 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, 3 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z-1",
+    "overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, 0 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z-2",
+    "overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, -1 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "backroom_stairs_z-3",
+    "overmaps": [
+      { "point": [ 0, 0, -3 ], "overmap": "backroom_stairs_bottom" },
+      { "point": [ 0, 0, -2 ], "overmap": "backroom_stairs_top" }
+    ],
+    "locations": [ "backrooms" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 15, 40 ],
+    "flags": [ "BACKROOMS" ]
+  },
+  {
+  "type": "overmap_special",
+  "id": "backfloorchamber_pitfalls",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_pitfalls" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 0, 2 ],
+  "rotate": false,
+  "flags": [ "BACKROOMS", "NO_ROTATE" ]
+},
+{
+  "type": "overmap_special",
+  "id": "backrooms_hotel_complex",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_hotel_lobby" },
+    { "point": [ 0, 1, 0 ], "overmap": "backfloorchamber_hotela" },
+	{ "point": [ 0, 2, 0 ], "overmap": "backfloorchamber_hotelb" },
+	{ "point": [ 0, 3, 0 ], "overmap": "backfloorchamber_hotel_doors" },
+	{ "point": [ 0, 4, 0 ], "overmap": "backfloorchamber_hotel_shifted" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 15, 40 ],
+  "rotate": false,
+  "flags": [ "BACKROOMS", "NO_ROTATE" ]
+},
+{
+  "type": "overmap_special",
+  "id": "backrooms_confined_neighborhood_4x6",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_tunnel_nw" },
+    { "point": [ 1, 0, 0 ], "overmap": "backfloorchamber_tunnel_n" },
+    { "point": [ 2, 0, 0 ], "overmap": "backfloorchamber_tunnel_n1" },
+    { "point": [ 3, 0, 0 ], "overmap": "backfloorchamber_tunnel_ne" },
+    { "point": [ 0, 1, 0 ], "overmap": "backfloorchamber_neigh_nw" },
+    { "point": [ 1, 1, 0 ], "overmap": "backfloorchamber_neigh_n" },
+    { "point": [ 2, 1, 0 ], "overmap": "backfloorchamber_neigh_n1" },
+    { "point": [ 3, 1, 0 ], "overmap": "backfloorchamber_neigh_ne" },
+    { "point": [ 0, 2, 0 ], "overmap": "backfloorchamber_neigh_w" },
+    { "point": [ 1, 2, 0 ], "overmap": "backfloorchamber_neigh_c" },
+    { "point": [ 2, 2, 0 ], "overmap": "backfloorchamber_neigh_c1" },
+    { "point": [ 3, 2, 0 ], "overmap": "backfloorchamber_neigh_e" },
+    { "point": [ 0, 3, 0 ], "overmap": "backfloorchamber_neigh_w1" },
+    { "point": [ 1, 3, 0 ], "overmap": "backfloorchamber_neigh_c2" },
+    { "point": [ 2, 3, 0 ], "overmap": "backfloorchamber_neigh_c3" },
+    { "point": [ 3, 3, 0 ], "overmap": "backfloorchamber_neigh_e1" },
+    { "point": [ 0, 4, 0 ], "overmap": "backfloorchamber_neigh_sw" },
+    { "point": [ 1, 4, 0 ], "overmap": "backfloorchamber_neigh_s" },
+    { "point": [ 2, 4, 0 ], "overmap": "backfloorchamber_neigh_s1" },
+    { "point": [ 3, 4, 0 ], "overmap": "backfloorchamber_neigh_se" },
+    { "point": [ 0, 5, 0 ], "overmap": "backfloorchamber_tunnel_sw" },
+    { "point": [ 1, 5, 0 ], "overmap": "backfloorchamber_tunnel_s" },
+    { "point": [ 2, 5, 0 ], "overmap": "backfloorchamber_tunnel_s1" },
+    { "point": [ 3, 5, 0 ], "overmap": "backfloorchamber_tunnel_se" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 1, 1 ],
+  "priority": 1,
+  "rotate": false,
+  "flags": [ "BACKROOMS", "GLOBALLY_UNIQUE", "NO_ROTATE", "REMOVE_ALL", "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+},
+{
+  "type": "overmap_special",
+  "id": "backrooms_async_station_spawn",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_async_station" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 1, 1 ],
+  "flags": [ "BACKROOMS", "GLOBALLY_UNIQUE" ]
+},
+{
+  "type": "overmap_special",
+  "id": "backrooms_async_dead_spawn",
+  "overmaps": [
+    { "point": [ 0, 0, 0 ], "overmap": "backfloorchamber_async_dead" }
+  ],
+  "locations": [ "backrooms" ],
+  "city_distance": [ 0, -1 ],
+  "city_sizes": [ 0, -1 ],
+  "occurrences": [ 1, 1 ],
+  "flags": [ "BACKROOMS", "GLOBALLY_UNIQUE" ]
+}
+]

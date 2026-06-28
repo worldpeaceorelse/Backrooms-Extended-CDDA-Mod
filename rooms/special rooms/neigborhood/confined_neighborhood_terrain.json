@@ -1,0 +1,240 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_concrete_floor",
+    "name": "concrete floor",
+    "description": "A worn, gray concrete floor. It feels cold and sterile.",
+    "symbol": ".",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_concrete_wall",
+    "name": "concrete wall",
+    "description": "A solid concrete wall, rough and unpainted.",
+    "symbol": "#",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 30,
+      "str_max": 60,
+      "sound": "crash!",
+      "sound_fail": "thump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "t_concrete_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_asphalt",
+    "name": "asphalt",
+	"looks_like": "t_pavement",
+    "description": "A cracked asphalt road surface.",
+    "symbol": ".",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_asphalt_yellow_line",
+    "name": "yellow line",
+	"looks_like": "t_pavement_y",
+    "description": "A yellow painted line on the road.",
+    "symbol": ".",
+    "color": "yellow",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_sidewalk",
+    "name": "sidewalk",
+    "description": "A concrete sidewalk.",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_fake",
+	"looks_like": "t_grass",
+    "name": "fake grass",
+    "description": "Artificial turf, eerily green and uniform.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_house_wall",
+    "name": "house wall",
+    "description": "A wooden wall painted white. It looks like it came from a suburban house.",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 10,
+      "str_max": 25,
+      "sound": "crash!",
+      "sound_fail": "thump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "t_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_carpet_red",
+    "name": "red carpet",
+    "description": "A thick red carpet, slightly faded.",
+    "symbol": ".",
+    "color": "red",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT", "RUG" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_window",
+    "name": "window",
+    "description": "A pane of glass set in a wooden frame.  It's dusty and hard to see through.",
+    "symbol": "O",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 70,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "WINDOW", "DOOR" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "glass breaking!",
+      "sound_fail": "thump!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_floor",
+      "items": [ { "item": "glass_shard", "count": [ 2, 6 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_mailbox",
+	"looks_like": "f_mailbox",
+    "name": "mailbox",
+    "description": "A standard suburban mailbox. The flag is up.",
+    "symbol": "M",
+    "color": "blue",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2,
+      "str_max": 6,
+      "sound": "clang!",
+      "sound_fail": "thump!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "scrap", "count": [ 1, 2 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_streetlight",
+    "name": "streetlight",
+    "description": "A tall metal streetlight. Its bulb flickers weakly.",
+    "symbol": "L",
+    "color": "light_gray",
+    "move_cost": 0,
+    "light_emitted": 60,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 20,
+      "sound": "clang!",
+      "sound_fail": "thump!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "scrap", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_garage_door",
+    "name": "garage door",
+	"looks_like": "t_door_metal_c",
+    "description": "A large metal garage door, slightly rusted.  It could be opened with enough force, or if you find the right switch.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "NO_SCENT", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 20,
+      "str_max": 40,
+      "sound": "clang!",
+      "sound_fail": "thump!",
+      "sound_vol": 12,
+      "sound_fail_vol": 6,
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "scrap", "count": [ 4, 8 ] },
+        { "item": "sheet_metal", "count": [ 2, 4 ] },
+        { "item": "pipe", "count": [ 1, 2 ] }
+      ]
+    }
+  },
+  {
+  "type": "terrain",
+  "id": "t_hedge",
+  "looks_like": "t_shrub",
+  "name": "hedge",
+  "description": "A neatly trimmed hedge.",
+  "symbol": "#",
+  "color": "green",
+  "move_cost": 4,
+  "flags": [ "TRANSPARENT", "FLAT" ],
+  "bash": {
+    "str_min": 4,
+    "str_max": 10,
+    "sound": "rustle!",
+    "sound_fail": "thump!",
+    "ter_set": "t_dirt",
+    "items": [ { "item": "withered", "count": [ 1, 3 ] } ]
+  }
+},
+  {
+    "type": "terrain",
+    "id": "t_clipped_wall",
+    "name": "clipped wall",
+    "description": "A wall that has been cut cleanly through by the Backrooms. The other half is just... gone.",
+    "symbol": "#",
+    "color": "red",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "crash!",
+      "sound_fail": "thump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "t_floor"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "vhs_placeholder_01",
+  "type": "ITEM",
+  "subtypes": [ "TOOL" ],
+  "name": {
+    "str": "moldy VHS tape"
+  },
+  "description": "A moldy looking VHS tape. Unlike most of the objects scattered about this place; this seems like it's been here for a very long time. You could watch it if you had a VHS player.",
+  "repairs_like": "canteen",
+  "looks_like": "tin_plate",
+  "weight": "155 g",
+  "volume": "250 ml",
+  "to_hit": -1,
+  "material": [ "plastic" ],
+  "repairs_with": [ "plastic" ],
+  "symbol": "T",
+  "color": "green"
+}

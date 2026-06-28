@@ -1,0 +1,7 @@
+{
+  "type": "effect_on_condition",
+  "id": "EOC_VCR_DIALOGUE",
+  "effect": [
+    { "open_dialogue": { "topic": "COMP_OLD_TV_MAIN" } }
+  ]
+}

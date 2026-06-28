@@ -1,0 +1,123 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_station_wall",
+    "name": "research station wall",
+    "description": "A cold, gray metal wall with faded Async warning labels.  It hums faintly with electricity.",
+    "symbol": "#",
+    "color": "light_gray",
+    "looks_like": "t_concrete_wall",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "connect_groups": "WALL",
+    "connects_to": "WALL",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 30,
+      "str_max": 60,
+      "sound": "clang!",
+      "sound_fail": "thump!",
+      "sound_vol": 10,
+      "sound_fail_vol": 6,
+      "ter_set": "t_metal_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_floor",
+    "name": "metal floor",
+    "description": "A scratched, rust-speckled metal grating.  It feels cold and sterile.",
+    "symbol": ".",
+    "color": "dark_gray",
+    "looks_like": "t_floor",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_floor_light",
+    "name": "metal floor, overhead light",
+    "description": "A scratched, rust-speckled metal grating, illuminated by a flickering fluorescent light.",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 2,
+    "light_emitted": 120,
+    "looks_like": "t_metal_floor",
+    "roof": "t_flat_roof",
+    "connect_groups": "INDOORFLOOR",
+    "connects_to": "INDOORFLOOR",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "crash!",
+      "sound_fail": "thump!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_metal_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_observation_window",
+    "name": "observation window",
+    "description": "A thick pane of reinforced glass looking into the Threshold chamber.  A single handprint smears the surface.",
+    "symbol": "|",
+    "color": "cyan",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "TRANSPARENT", "WALL", "NO_SCENT", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 70,
+      "sound": "shatter!",
+      "sound_fail": "thump!",
+      "ter_set": "t_metal_floor",
+      "items": [ { "item": "glass_shard", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_threshold",
+    "name": "the Threshold",
+    "description": "A massive, room-sized machine of metal and wire.  In the center, a shimmering doorway leads into the Backrooms.  It hums with a low, magnetic drone.",
+    "symbol": "O",
+    "color": "magenta",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [ "NOITEM", "TRANSPARENT" ],
+    "bash": {
+      "str_min": 200,
+      "str_max": 300,
+      "sound": "groan!",
+      "sound_fail": "thump!",
+      "ter_set": "t_metal_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_async_console",
+    "name": "Async console",
+    "description": "A bank of monitors and control panels, covered in dust.  A few screens still flicker with static.",
+    "symbol": "&",
+    "color": "cyan",
+    "move_cost": 0,
+    "coverage": 30,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "shatter!",
+      "sound_fail": "thump!",
+      "items": [
+        { "item": "e_scrap", "count": [ 2, 6 ] },
+        { "item": "cable", "count": [ 1, 3 ] }
+      ]
+    }
+  }
+]

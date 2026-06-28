@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_special",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -18,12 +17,12 @@
         "-         -",
         "-----------"
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_big_special",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -37,12 +36,12 @@
         "-      -",
         "--------"
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_special",
     "object": {
       "mapgensize": [ 4, 4 ],
@@ -52,12 +51,12 @@
         "-  -",
         "----"
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "mx_backroom_small_special",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -69,6 +68,7 @@
         "-    -",
         "------"
       ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "backrooms_palette" ]
     }
   }

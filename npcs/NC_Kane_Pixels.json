@@ -1,0 +1,286 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_KANE_PIXEL",
+    "name": { "str": "Kane Pixel" },
+    "job_description": "The creator... or a version of him.",
+    "traits": [
+      { "trait": "OUTDOORSMAN" },
+      { "trait": "LIGHTSTEP" },
+      { "trait": "HEAVYSLEEPER" }
+    ],
+    "common": false,
+    "worn_override": "KANE_PIXEL_worn",
+    "weapon_override": "KANE_PIXEL_wield",
+    "skills": [
+      { "skill": "speech", "bonus": { "rng": [ 10, 10 ] } },
+      { "skill": "computer", "bonus": { "rng": [ 10, 10 ] } }
+    ]
+  },
+  {
+  "type": "item_group",
+  "id": "KANE_PIXEL_worn",
+  "subtype": "collection",
+  "entries": [
+    { "item": "tshirt_end_apartheid", "prob": 100 },
+    { "item": "jeans", "prob": 100 },
+    { "item": "sneakers", "prob": 100 },
+    { "item": "knit_scarf", "prob": 100 }
+  ]
+},
+  {
+    "type": "item_group",
+    "id": "KANE_PIXEL_wield",
+    "subtype": "collection",
+    "entries": [
+      { "item": "camera", "prob": 100 }
+    ]
+  },
+  {
+    "type": "npc",
+    "id": "KANE_PIXEL",
+    "name_unique": "Kane Pixel",
+    "gender": "male",
+    "class": "NC_KANE_PIXEL",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_KANE_PIXEL",
+    "faction": "no_faction"
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL",
+    "dynamic_line": "Oh... hey. I didn't expect to see anyone else here. This place is weird, right?",
+    "responses": [
+      {
+        "text": "What are you doing here?",
+        "topic": "TALK_KANE_PIXEL_WHAT"
+      },
+      {
+        "text": "Who are you, really?",
+        "topic": "TALK_KANE_PIXEL_WHO"
+      },
+      {
+        "text": "What do you think of this place?",
+        "topic": "TALK_KANE_PIXEL_OPINION"
+      },
+      {
+        "text": "Say something random.",
+        "topic": "TALK_KANE_PIXEL_RANDOM"
+      },
+      {
+        "text": "What should I do next?",
+        "topic": "TALK_KANE_PIXEL_ADVICE"
+      },
+      {
+        "text": "Tell me a secret about the Backrooms.",
+        "topic": "TALK_KANE_PIXEL_SECRETS"
+      },
+      {
+        "text": "Can I have some almond water?",
+        "topic": "TALK_KANE_PIXEL_ALMOND_WATER"
+      },
+      {
+        "text": "Goodbye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_WHAT",
+    "dynamic_line": "Me? Oh, I'm just... I don't know. I'm not really sure how I got here. One minute I was making a video, and the next... boom. Yellow carpet. I was like, 'Wait, did I just render this?' And then I realized I wasn't rendering anything. I was... in it.",
+    "responses": [
+      {
+        "text": "So you're Kane? The creator?",
+        "topic": "TALK_KANE_PIXEL_CREATOR"
+      },
+      {
+        "text": "That's... unsettling.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_CREATOR",
+    "dynamic_line": "I don't know anymore, man. Am I me? Or am I just... a version of me? A copy? An echo? This place messes with you. I've been here so long I've started wondering if I ever really existed. Or if this is just all part of the simulation. Or if I was always here, just waiting for someone to find me. It's like... existential dread, but with carpets.",
+    "responses": [
+      {
+        "text": "That's deep. Maybe a little too deep.",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "You're making me feel weird.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_WHO",
+    "dynamic_line": "I used to be a filmmaker. Made weird videos about liminal spaces and the Backrooms. I guess I got too close to the subject matter. Now I'm here. Maybe I was always here. Maybe everyone who makes content about this place is just... remembering. Or being remembered. It's hard to tell.",
+    "responses": [
+      {
+        "text": "You're a filmmaker? What did you make?",
+        "topic": "TALK_KANE_PIXEL_FILMS"
+      },
+      {
+        "text": "That's a terrifying thought.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_FILMS",
+    "dynamic_line": "I made... well, I made videos about places that shouldn't exist. Hallways that go nowhere. Rooms that don't make sense. I thought I was just being artistic. But maybe I was remembering. Maybe we all have some connection to this place. Some people dream about it. Some people make videos about it. I'm just the one who ended up here.",
+    "responses": [
+      {
+        "text": "Do you remember making the videos?",
+        "topic": "TALK_KANE_PIXEL_VIDEOS"
+      },
+      {
+        "text": "That's... a lot to process.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_VIDEOS",
+    "dynamic_line": "I remember... fragments. Like dreams you can't quite hold onto. I remember a camera. I remember a script. I remember thinking 'this will be my best work yet.' And then I was here. With no camera. No script. Just... yellow carpet forever.",
+    "responses": [
+      {
+        "text": "Do you think you'll ever find a way back?",
+        "topic": "TALK_KANE_PIXEL_WAYBACK"
+      },
+      {
+        "text": "I'm sorry, man.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_WAYBACK",
+    "dynamic_line": "I don't think so. I've been here too long. I've walked too many miles. Seen too many rooms. I think... I think this is my home now. And I'm okay with that. Sort of. I mean, the carpet is comfortable enough, and the hum of the lights is almost like white noise.",
+    "responses": [
+      {
+        "text": "That's... depressing.",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "I hope you find a way back.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_OPINION",
+    "dynamic_line": "Look, I've seen a lot of weird levels. Yellow rooms, concrete mazes, pipe nightmares... but this? This is the OG. The classic. The one everyone knows. It's like... comfort food, but for horror. You know? Like, you come here, you know what to expect. The buzzing lights, the damp carpet, the feeling like someone's watching you from just around the corner. It's home. A creepy, moldy, unsettling home.",
+    "responses": [
+      {
+        "text": "I guess that's one way to look at it.",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "You're kind of a weirdo, aren't you?",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_RANDOM",
+    "dynamic_line": [
+      "You know, this is the third time I've had this exact conversation. Deja vu, or bad game design?",
+      "I think I saw something move in the corner of my eye. It was probably just my reflection. Wait, I don't have a reflection in this place. That's worrying.",
+      "If you find a way out, let me know. I've been walking in circles for... actually, I lost track of the days. Then again, I lost track of who I am too. So it balances out.",
+      "Backrooms fact: The carpet pattern actually has a hidden message in it if you look at it long enough. It says 'Get Out' in 400 different languages. Real uplifting.",
+      "The best part about this place is the silence. Wait, no, the worst part is the silence. Wait, actually, the worst part is when the silence stops. You know what? I'm just gonna stop talking now.",
+      "I tried to climb up through a ceiling tile once. It just led to another room. With more carpet. It's carpets all the way down, man.",
+      "The hum from the lights? I'm pretty sure it's playing a song. It's 'Never Gonna Give You Up'. Rick Astley is the real ruler of the Backrooms. I've seen the truth.",
+      "If you die here, do you respawn? Actually, please don't test that. I'm not ready for that kind of existential confirmation.",
+      "Someone told me there's a community in Level 1. I went there. It was just five guys in a room arguing about whether almond water counts as a liquid or a concept. I left immediately.",
+      "I found a door that said 'Exit'. It led to a room with a single chair. I sat on it. Nothing happened. I'm still mad about that.",
+      "You ever think about how weird it is that there's always a water cooler nearby? Like, someone planned this. Someone wanted us to stay hydrated while we go insane. That's dedication.",
+      "I saw a guy once who had been here so long he started talking to the lights. They didn't talk back. He was disappointed.",
+      "The Backrooms: where the carpet is always damp, the lights always hum, and you're never quite sure if you're alone."
+    ],
+    "responses": [
+      {
+        "text": "...Okay then.",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "You're a trip, man.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_ADVICE",
+    "dynamic_line": [
+      "Find stairs. Go down. Or up. Honestly, it doesn't matter. Every level is just another flavor of the same nightmare. I'd say 'trust your gut,' but your gut is just as lost as you are.",
+      "If you find a pool, don't swim in it. Trust me. There's... something in the water. And it doesn't like being watched. Also, it's chlorinated, which is a real health hazard.",
+      "Pick up everything. Hoard like a dragon. Because one day, you'll need that random rusty pipe or weird object you found under a chair. And when you do, you'll feel like a genius. Or you'll just feel like a weird hoarder. Either way, you have stuff.",
+      "Talk to everyone you meet. Even if they're weird. Especially if they're weird. Weird people know things. Like which level has the best almond water supply. Spoiler: It's Level 2, but you have to fight a pipe monster for it.",
+      "Don't trust the vending machines. I put a coin in one once and it dispensed a single mushroom and a note that said 'Subscribe to my channel.' I didn't even have a channel at the time. I'm still confused.",
+      "The best advice I can give you? Don't take this too seriously. It's just an infinite nightmare dimension made of rooms. How bad can it be?",
+      "If you see a door that doesn't look right, don't open it. I opened one once and it was just another room. With more doors. And more rooms. It was doors all the way down.",
+      "Always carry a light source. The dark isn't just scary — it's inhabited. By things that don't like light. But also don't like darkness. They're very particular."
+    ],
+    "responses": [
+      {
+        "text": "That's... actually helpful. Thanks?",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "Not sure that was advice, but I'll take it.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_SECRETS",
+    "dynamic_line": [
+      "Okay, okay, I'll give you a real secret. The carpet? The yellow carpet? It's not actually yellow. It's the absence of color. The Backrooms just... makes you think it's yellow. Mind-blowing, right?",
+      "There's a room somewhere—I think it's Level 0.5 or something—where the lights don't hum. They whisper. If you listen closely, they're telling you your search history. It's terrifying. Also, how do they know what I looked up in 2018?",
+      "I found a mirror once that showed me what I'd look like if I was a zombie. It was actually an improvement. I was too embarrassed to tell anyone that, but now you know. Happy?",
+      "The door that says 'Authorized Personnel Only'? That's a lie. I'm authorized. I'm the creator. I authorized myself. And I still don't know what's behind it. Probably just more carpet, honestly.",
+      "I was told that if you walk backwards through 17 identical rooms, you'll end up in a room with a single chair. I did it. It was a chair. That was it. I wasted three hours for a chair. But it was a nice chair.",
+      "Some people say the Backrooms were created by a bored god. Other people say it was a glitch in reality. Me? I think it's just a place that doesn't want to be found. And we keep finding it anyway. That's the joke.",
+      "There's a theory that the Backrooms are actually a memory. A collective memory of something that never existed. But that doesn't explain why I can stub my toe on a wall and feel it. Maybe the pain is part of the memory too."
+    ],
+    "responses": [
+      {
+        "text": "You're making this up.",
+        "topic": "TALK_KANE_PIXEL"
+      },
+      {
+        "text": "...I believe you.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_KANE_PIXEL_ALMOND_WATER",
+    "dynamic_line": "Oh, you want some almond water? Yeah, I've got some. It's the one thing that's actually good here. Tastes like... well, like almond water. But it keeps you from going crazy. Or at least, it slows it down.",
+    "responses": [
+      {
+        "text": "Thanks, Kane!",
+        "topic": "TALK_KANE_PIXEL",
+        "effect": { "u_spawn_item": "almond_water", "count": 1 }
+      },
+      {
+        "text": "Actually, never mind.",
+        "topic": "TALK_KANE_PIXEL"
+      }
+    ]
+  }
+]

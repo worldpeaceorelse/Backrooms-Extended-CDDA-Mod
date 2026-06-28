@@ -1,0 +1,20 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_TEST",
+    "name": { "str": "Test NPC" },
+    "job_description": "A simple test NPC.",
+    "common": true
+  },
+  {
+    "type": "npc",
+    "id": "TEST_NPC",
+    "name_unique": "Test NPC",
+    "gender": "male",
+    "class": "NC_TEST",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_NONE",
+    "faction": "no_faction"
+  }
+]
