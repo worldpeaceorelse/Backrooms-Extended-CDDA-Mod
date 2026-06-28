@@ -19,9 +19,13 @@ Complete missions for Async and various other characters.
 He's only 20 years old. I hid him in a special room in-game. That's right, you can find and chat with the creator of the Backrooms himself.
 
 ## Installation instructions:
-Step 1: Download latest experimental.
+
+Step 1: Download latest experimental: https://github.com/CleverRaven/Cataclysm-DDA/releases?q=prerelease%3Atrue&expanded=true
+
 Step 2: Delete "Backrooms" folder in "data/mods"
+
 Step 3: Add "Backrooms Extended" folder to "data/mods"
+
 Step 4: Play the game! Should work exactly as expected.
 
 - momosthrall ♡
